@@ -1,0 +1,13 @@
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.csprojAssemblyReference.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfoInputs.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.AssemblyInfo.cs
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.csproj.CoreCompileInputs.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.exe
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.deps.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.runtimeconfig.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.runtimeconfig.dev.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\bin\Debug\netcoreapp3.1\Task1.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ConsoleApp1\obj\Debug\netcoreapp3.1\Task1.genruntimeconfig.cache

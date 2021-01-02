@@ -1,0 +1,6 @@
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\bin\Debug\ClassBooks.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\bin\Debug\ClassBooks.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\obj\Debug\ClassBooks.csprojAssemblyReference.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\obj\Debug\ClassBooks.csproj.CoreCompileInputs.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\obj\Debug\ClassBooks.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\ClassBooks\obj\Debug\ClassBooks.pdb

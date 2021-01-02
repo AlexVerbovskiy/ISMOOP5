@@ -1,0 +1,16 @@
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.exe
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.deps.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.runtimeconfig.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.runtimeconfig.dev.json
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\OOP5.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\ClassBooks.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\bin\Debug\netcoreapp3.1\ClassBooks.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.csprojAssemblyReference.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.AssemblyInfoInputs.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.AssemblyInfo.cs
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.csproj.CoreCompileInputs.cache
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.csproj.CopyComplete
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.dll
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.pdb
+C:\Users\cofee\OneDrive\Робочий стіл\ISM\OOP5\OOP5\obj\Debug\netcoreapp3.1\OOP5.genruntimeconfig.cache
