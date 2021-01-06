@@ -3,24 +3,85 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace ClassBooks
 {
     public class Book
     {
-        public string Name { set; get; }
-        public string Author { set; get; }
-        public string Publishing { set; get; }
-        public Book(string name, string author, string publishing)
+        protected string name;
+        protected string author;
+        protected string publishing;
+        public string Name {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
+            }
+        }
+        public string Author
         {
-            Name = name;
-            Author = author;
-            Publishing = publishing;
+            get
+            {
+                return author;
+            }
+
+            set
+            {
+                author = value;
+            }
+        }
+        public string Publishing
+        {
+            get
+            {
+                return publishing;
+            }
+
+            set
+            {
+                publishing = value;
+            }
+        }
+        public Book(string name1, string author1, string publishing1)//конструктор книги
+        {
+            name = name1;
+            author = author1;
+            publishing = publishing1;
         }
     }
     public delegate int DelegateTask2(Book book1, Book book2);
-    public class Books
+    public class BooksContainer
     {
-        public static void BooksSort(Book[] books, int kBooks, DelegateTask2 del)
+        protected List<Book> Books;
+        public BooksContainer()//конструктор контейнера книг
+        {
+            Books = new List<Book>();
+        }
+        public void AddBook(Book book)//додавання книги в контейнер книг
+        {
+            Books.Add(book);
+        }
+        public void AddBook(string name, string author, string publishing)//додавання книги в контейнер книг за параметрами
+        {
+            Book book = new Book(name, author, publishing);
+            Books.Add(book);
+        }
+        public Book this[int index]// індексація
+        {
+            get
+            {
+                return Books[index];
+            }
+            set
+            {
+                Books[index] = value;
+            }
+        }
+        public static void BooksSort(BooksContainer books, int kBooks, DelegateTask2 del, int p)//сортування книг
         {
             int c = 1;
             while (c==1)
@@ -29,7 +90,7 @@ namespace ClassBooks
                 for(int i = 0; i < kBooks-1; i++)
                 {
                     int l = del(books[i], books[i + 1]);
-                    if (l == 1)
+                    if (l == p)//p - вказує на те, чи сортування буде в порядку алфавіта,чи проти нього
                     {
                         c = 1;
                         Book bookDop = books[i];
@@ -49,14 +110,18 @@ namespace ClassBooks
             {
                 if (book1.Name[i] < book2.Name[i])
                 {
-                    return 0;
+                    return -1;
                 }
                 else if (book1.Name[i] > book2.Name[i])
                 {
                     return 1;
                 }
             }
-            if (k == book1.Name.Length)
+            if (k == book1.Name.Length && k != book2.Name.Length)
+            {
+                return -1;
+            }
+            else if(k == book1.Name.Length && k == book2.Name.Length)
             {
                 return 0;
             }
@@ -72,14 +137,18 @@ namespace ClassBooks
             {
                 if (book1.Author[i] < book2.Author[i])
                 {
-                    return 0;
+                    return -1;
                 }
                 else if (book1.Author[i] > book2.Author[i])
                 {
                     return 1;
                 }
             }
-            if (k == book1.Author.Length)
+            if (k == book1.Author.Length&& k != book2.Author.Length)
+            {
+                return -1;
+            }
+            else if(k == book1.Author.Length && k == book2.Author.Length)
             {
                 return 0;
             }
@@ -95,20 +164,23 @@ namespace ClassBooks
             {
                 if (book1.Publishing[i] < book2.Publishing[i])
                 {
-                    return 0;
+                    return -1;
                 }
                 else if (book1.Publishing[i] > book2.Publishing[i])
                 {
                     return 1;
                 }
             }
-            if (k == book1.Publishing.Length)
+            if (k == book1.Publishing.Length && k != book2.Publishing.Length)
             {
-                return 0;
+                return -1;
             }
-            else
+            else if(k == book1.Publishing.Length && k == book2.Publishing.Length)
             {
                 return 1;
+            }else
+            {
+                return 0;
             }
         }//порівнюємо імена видавництв  за алфавітом
     }

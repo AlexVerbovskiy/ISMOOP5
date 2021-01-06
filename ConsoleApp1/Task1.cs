@@ -12,17 +12,20 @@ namespace ConsoleApp1
             DelegateTask1 deleg;
             Console.WriteLine("Введіть номер функції, яку хочете використати(1-5):");
             int a = int.Parse(Console.ReadLine());
-            switch (a)
+            switch (a)//табулювання функції, вибраної користувачем
             {
-                case 1: deleg = Func1; break;
-                case 2: deleg = Func2; break;
-                case 3: deleg = Func3; break;
-                case 4: deleg = Func4; break;
-                case 5: deleg = Func5; break;
-                default: deleg = Func6; break;
+                case 1: deleg = DopClass.Func1; break;
+                case 2: deleg = DopClass.Func2; break;
+                case 3: deleg = DopClass.Func3; break;
+                case 4: deleg = DopClass.Func4; break;
+                case 5: deleg = DopClass.Func5; break;
+                default: deleg = DopClass.Func6; break;
             }
             deleg();
         }
+    }
+    public class DopClass
+    {
         public static void Func1()
         {
             for (double i = -100000; i <= 10000; i += 0.015)
